@@ -88,7 +88,6 @@ public class GetAPITest extends TestBase{
 		System.out.println("Headers Array --> " + allHeaders);
 	}
 	
-	
 	@Test
 	public void getUsersWithHeaders() throws ClientProtocolException, IOException
 	{

@@ -1,29 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1935" started-at="2018-10-26T10:11:17Z" finished-at="2018-10-26T10:11:18Z">
+  <suite name="Default suite" duration-ms="1241" started-at="2018-10-30T11:25:52Z" finished-at="2018-10-30T11:25:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1935" started-at="2018-10-26T10:11:17Z" finished-at="2018-10-26T10:11:18Z">
-      <class name="com.qa.tests.GetAPITest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GetAPITest@51565ec2]" name="setUp" is-config="true" duration-ms="10" started-at="2018-10-26T10:11:17Z" finished-at="2018-10-26T10:11:17Z">
+    <test name="Default test" duration-ms="1241" started-at="2018-10-30T11:25:52Z" finished-at="2018-10-30T11:25:53Z">
+      <class name="com.qa.tests.PostAPITest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.PostAPITest@55f3ddb1]" name="setUp" is-config="true" duration-ms="5" started-at="2018-10-30T11:25:52Z" finished-at="2018-10-30T11:25:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getUsersWithHeaders()[pri:0, instance:com.qa.tests.GetAPITest@51565ec2]" name="getUsersWithHeaders" duration-ms="1286" started-at="2018-10-26T10:11:17Z" finished-at="2018-10-26T10:11:18Z">
+        <test-method status="PASS" signature="postApiTest()[pri:0, instance:com.qa.tests.PostAPITest@55f3ddb1]" name="postApiTest" duration-ms="1214" started-at="2018-10-30T11:25:52Z" finished-at="2018-10-30T11:25:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUsersWithHeaders -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GetAPITest@51565ec2]" name="setUp" is-config="true" duration-ms="1" started-at="2018-10-26T10:11:18Z" finished-at="2018-10-26T10:11:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getUsersWithoutHeaders()[pri:0, instance:com.qa.tests.GetAPITest@51565ec2]" name="getUsersWithoutHeaders" duration-ms="610" started-at="2018-10-26T10:11:18Z" finished-at="2018-10-26T10:11:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getUsersWithoutHeaders -->
-      </class> <!-- com.qa.tests.GetAPITest -->
+        </test-method> <!-- postApiTest -->
+      </class> <!-- com.qa.tests.PostAPITest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
